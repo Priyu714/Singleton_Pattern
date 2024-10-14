@@ -1,9 +1,11 @@
+package others;
+
 public class Singleton {
 
     private static Singleton instance;
 
     private Singleton(){
-        System.out.println("Singleton Initiated");
+        System.out.println("others.Singleton Initiated");
     }
 
     public static Singleton getInstance(){
@@ -20,7 +22,7 @@ public class Singleton {
 
     public static void main(String[] args) {
 
-        Singleton s1;
+
         Singleton.getInstance().getConnection();
     }
 }
